@@ -9,80 +9,145 @@
 
     <link rel="stylesheet" href="../css/bootstrap.css">
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/homepage.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 
+
 <body>
-    <div class="top">
+    <div class="top containerfluid ">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Cui'Zine</a>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Cui'Zine</a>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                    </li>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Equipe</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                    
-                </div>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
-        <!-- <div class="container"> -->
-            <header class="row">
-                <!-- <img src="../digitous-html-cuisine/img/logo_square_white.png"> -->
+        <header>
+            <div class="col-6 offset-6">
+                <img class="mt-5 mb-3" src="../digitous-html-cuisine/img/logo_square_white.png"
+                    alt="Logo blanc Cui'Zine">
                 <h1> Cui'Zine </h1>
                 <h4> Le mag cuisine </h4>
-
-                <div class="p-5" style="
-                background-image: url('../digitous-html-cuisine/img/header.jpg');
-                height: 400px;
-                ">
-
-                </div>
-            </header>
-        </div>
-        
-        <div class="row">
-            <h2>Derniers articles</h2>
-            <!-- <img src="../digitous-html-cuisine/img/header.jpg"> -->
-
-
-        </div>
-
-        <div class="row">
-
-        </div>
-
-        <div class="row">
-
-        </div>
-
-        <div class="row">
-
-        </div>
-
+            </div>
+        </header>
     </div>
+
+    <div class="container-sm">
+        <div class=" info col-4 offset-4">
+            <h2>Derniers articles</h2>
+        </div>
+        <div class="col">
+
+            <div class="row">
+
+                <img class="mb-3" src="../digitous-html-cuisine/img/articles/suzette/suzette-small.jpg">
+                <h2><span>Chez Suzette, la nouvelle crêperie qui fait parler d'elle</span></h2>
+                <p>La franchise "Chez Suzette qui fait un carton chez les bretons ouvre son premier restaurant à Paris
+                    dans
+                    le
+                    quartier latin. Antoine de Cui'Zine a testé pour vous les saveurs sucrées, salées au froment ou au
+                    sarrazin!
+                </p>
+
+            </div>
+
+            <div class="row">
+                <img class="mb-3" src="../digitous-html-cuisine/img/articles/metro/metro-small.jpg">
+                <h2><span>Le Métro dessert</span></h2>
+                <p>Gemain est ferrovipathe (ndlr: fan de train), son fils Maxime est pastissier. Ils ont décidé de
+                    réunir
+                    leur
+                    deux passions dans un restaurant à la déco inspirée du métro parisien. A voir absolument, mais qu'en
+                    est-il
+                    d'y aller pour y manger? Clémentine entre en gare et nous donne son avis.
+                </p>
+            </div>
+
+            <div class="row">
+                <img class="mb-3" src="../digitous-html-cuisine/img/articles/vitaly/vitaly-small.jpg">
+                <h2><span>Vitaly, le végan italien</span></h2>
+                <p>Quand on pense italien, on pense lasagne et jambon de Parme. ils l'ont fait, les saveurs de l'Italie
+                    à la
+                    portée des herbivores. Cette fois, c'est moi Tony qui vais le tester pour vous.
+                </p>
+
+            </div>
+
+        </div>
+        <div class="row">
+            <a href="#"> Voir les articles précedents</a>
+        </div>
+    </div>
+    <footer class="containerfluid">
+        <div class="col-4 offset-md-0 col-lg-4">
+            <h2><span>Catégories</span></h2>
+            <ul>
+                <li><a href="#">Revues</a></li>
+                <li><a href="#">Recettes</a></li>
+                <li><a href="#">Découvertes</a></li>
+            </ul>
+        </div>
+        <div class="col-4 offset-md-0 col-lg-4">
+            <h2><span>Archives</span></h2>
+            <ul>
+                <li><a href="#">2019</a></li>
+                <li><a href="#">2018</a></li>
+                <li><a href="#">2017</a></li>
+            </ul>
+        </div>
+        <!-- <div class="col-4 offset-md-0 col-lg-4"> -->
+        <!-- <div class="col-5 col-md-5 col-md-offset-7"> -->
+        <div class="row">
+            <div class="col-4 offset-md-0 col-lg-4">
+                <h5><span>Newsletter</span></h5>
+                <form class="row">
+                    <div class="col-auto pe-0">
+                        <label for="inputPassword2" class="visually-hidden">Password</label>
+                        <input type="password" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                    <div class="col-auto ps-0">
+                        <button type="submit" class="btn btn-dark mb-3">S'inscrire</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="row mb-3">
+                <h5 class="mt-2">Partager</h5>
+                <div class="logo">
+                    <img src="#" alt="Facebook">
+                    <img src="#" alt="Instagram">
+                    <img src="#" alt="Youtube">
+                    <img src="#" alt="Twitter">
+                </div>
+            </div>
+
+        </div>
+    
+    </footer>
+
 
     <script src="../js/bootstrap.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
