@@ -1,0 +1,31 @@
+
+
+.info {
+    font-family: 'oswald';
+    font-size: medium;
+    font-weight: normal;
+}
+span {
+    font-family: 'courgette';
+    font-size:large;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'oswald';
+    font-size: medium;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;    
+}
+
